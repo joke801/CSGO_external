@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Memory">
+      <UniqueIdentifier>{28bdc7f0-51a5-40b1-9222-b0229e6a2ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Random">
+      <UniqueIdentifier>{85dc82f0-aec9-4ecd-9805-a3c393a84fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Game">
+      <UniqueIdentifier>{615453bd-eb1a-41c2-a805-dd8532d867ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core">
+      <UniqueIdentifier>{b86b8b81-79a4-4a3e-8218-d0d523fd540b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\misc">
+      <UniqueIdentifier>{35b53e68-cb37-4086-9e6e-0133de538969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\Player">
+      <UniqueIdentifier>{6838ced3-3d47-49c3-a8c2-68965f721172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\Skinchanger">
+      <UniqueIdentifier>{c31309e2-9728-467c-8ff1-1ace514803ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\Aim">
+      <UniqueIdentifier>{29a215db-a8c0-4783-a11f-ffdc41dd78b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\Triggerbot">
+      <UniqueIdentifier>{4ee852ea-020a-4795-b22f-69b5d97d3ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core\ESP">
+      <UniqueIdentifier>{f59ac71b-6bc0-47e3-9c13-3f3241e3b370}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Resource Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Resource Files\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Resource Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Resource Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Skinchanger.cpp">
+      <Filter>Resource Files\Core\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>Resource Files\Core\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Resource Files\Core\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Standalonerecoil.cpp">
+      <Filter>Resource Files\Core\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Resource Files\Core\ESP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Resource Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>Resource Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Resource Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Resource Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.hpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.hpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.hpp">
+      <Filter>Resource Files\Core\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.hpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Skinchanger.hpp">
+      <Filter>Resource Files\Core\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.hpp">
+      <Filter>Resource Files\Core\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.hpp">
+      <Filter>Resource Files\Core\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Standalonerecoil.hpp">
+      <Filter>Resource Files\Core\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.hpp">
+      <Filter>Resource Files\Core\ESP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
