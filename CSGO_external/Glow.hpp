@@ -11,6 +11,7 @@ private:
 
 	struct GlowObjectDefinition_r
 	{
+		int    nNextFreeSlot;
 		DWORD pEntity;
 		color vGlowColor;
 		float  flGlowAlpha;
@@ -25,7 +26,7 @@ private:
 		int    nFullBloomStencilTestValue;
 		int    nGlowStyle;
 		int    nSplitScreenSlot;
-		int    nNextFreeSlot;
+
 	};
 	struct GlowObjectDefinition_w
 	{
@@ -42,7 +43,6 @@ private:
 		int    nFullBloomStencilTestValue;
 		int    nGlowStyle;
 		int    nSplitScreenSlot;
-		int    nNextFreeSlot;
 	};
 
 

@@ -158,21 +158,21 @@ bool Features::Init(std::string startUpPath) {
 	if (!oFile.is_open())
 		return false;
 
-	std::string TitleName="aimlock";
+		std::string TitleName = "aimlock";
 
-	oFile << "[" << TitleName << "]" << std::endl << std::endl;
+		oFile << "[" << TitleName << "]" << std::endl << std::endl;
 
-	for (unsigned int c = 0; c < Vars.size(); ++c) {
+		for (unsigned int c = 0; c < Vars.size(); ++c) {
 
-		int pos = Vars[c].varName.find(".");
+			int pos = Vars[c].varName.find(".");
 
-		if (Vars[c].varName.substr(0, pos) != TitleName) {
-			TitleName = Vars[c].varName.substr(0, pos);
-			oFile<<std::endl<<std::endl<< "[" << TitleName << "]" << std::endl << std::endl;
+			if (Vars[c].varName.substr(0, pos) != TitleName) {
+				TitleName = Vars[c].varName.substr(0, pos);
+				oFile<<std::endl<<std::endl<< "[" << TitleName << "]" << std::endl << std::endl;
+			}
+
+			oFile << Vars[c].varName << ":" << std::to_string(Vars[c].varValue)<<std::endl;
 		}
-
-		oFile << Vars[c].varName << ":" << std::to_string(Vars[c].varValue)<<std::endl;
-	}
 
 
 

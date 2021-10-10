@@ -1,7 +1,7 @@
 #pragma once
 #include "CommonIncludes.hpp"
 #include <random>
-
+#include <wincrypt.h>
 
 class Random {
 private:

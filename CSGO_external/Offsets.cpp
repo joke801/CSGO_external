@@ -35,7 +35,7 @@ bool offsets::bSetOffsets() {
 		return false;
 	}
 
-	SIGS.dwClientState_ViewAngles = 0x4D90;
+	SIGS.dwClientState_ViewAngles = 0x4D90;//mem.pattern_scan(SDK.iEngineBaseAddress, "F3 0F 11 86 ? ? ? ? F3 0F 10 44 24 ? F3 0F 11 86", 4, 0, false, true);
 	if (SIGS.dwClientState_ViewAngles == NULL) {
 		return false;
 	}

@@ -18,39 +18,39 @@ struct offsets {
         DWORD m_aimPunchAngle = 0x302C;
         DWORD dwClientState_ViewAngles = 0x4D90;
 
-        DWORD m_iGlowIndex = 0xA438;
-        DWORD m_bIsDefusing = 0x3930;
-        DWORD m_bHasDefuser = 0xB388;
+        DWORD m_iGlowIndex = 0x10488;
+        DWORD m_bIsDefusing = 0x997C;
+        DWORD m_bHasDefuser = 0x113DC;
 
         DWORD m_bSpottedByMask = 0x980;
-        DWORD m_iShotsFired = 0xA390;
-        DWORD m_hActiveWeapon = 0x2EF8;
-        DWORD m_hMyWeapons = 0x2DF8;
-        DWORD m_flFallbackWear = 0x31D0;
-        DWORD m_nFallbackPaintKit = 0x31C8;
-        DWORD m_nFallbackSeed = 0x31CC;
-        DWORD m_nFallbackStatTrak = 0x31D4;
-        DWORD m_iItemDefinitionIndex = 0x2FAA;
-        DWORD m_iAccountID = 0x2FC8;
-        DWORD m_OriginalOwnerXuidLow = 0x31C0;
-        DWORD m_OriginalOwnerXuidHigh = 0x31C4;
-        DWORD m_iItemIDHigh = 0x2FC0;
-        DWORD m_iCrosshairId = 0xB3E4;
+        DWORD m_iShotsFired = 0x103E0;
+        DWORD m_hActiveWeapon = 0x2F08;
+        DWORD m_hMyWeapons = 0x2E08;
+        DWORD m_flFallbackWear = 0x31E0;
+        DWORD m_nFallbackPaintKit = 0x31D8;
+        DWORD m_nFallbackSeed = 0x31DC;
+        DWORD m_nFallbackStatTrak = 0x31E4;
+        DWORD m_iItemDefinitionIndex = 0x2FBA;
+        DWORD m_iAccountID = 0x2FD8;
+        DWORD m_OriginalOwnerXuidLow = 0x31D0;
+        DWORD m_OriginalOwnerXuidHigh = 0x31D4;
+        DWORD m_iItemIDHigh = 0x2FD0;
+        DWORD m_iCrosshairId = 0x11438;
         DWORD m_bSpotted = 0x93D;
         DWORD m_clrRender = 0x70;
-        DWORD m_flFlashMaxAlpha = 0xA41C;
+        DWORD m_flFlashMaxAlpha = 0x1046C;
 
         DWORD m_flSimulationTime = 0x268;
         DWORD m_dwBoneMatrix = 0x26A8;
         DWORD m_vecOrigin = 0x138;
         DWORD m_vecViewOffset = 0x108;
         DWORD m_nSurvivalTeam = 0xA3B0;
-        DWORD m_iClip1 = 0x3264;
+        DWORD m_iClip1 = 0x3274;
         DWORD m_bFreezePeriod = 0x20;
-        DWORD  m_fAccuracyPenalty = 0x3330;
+        DWORD  m_fAccuracyPenalty = 0x3340;
 
 
-        DWORD m_bGunGameImmunity = 0x3944;
+        DWORD m_bGunGameImmunity = 0x9990;
         DWORD m_vecVelocity = 0x114;
 
         DWORD m_SurvivalGameRuleDecisionTypes = 0x1328;//DANGERZONE CHECK

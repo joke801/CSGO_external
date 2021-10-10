@@ -30,7 +30,6 @@ void Glow::tGlow() {
 			entglow.nFullBloomStencilTestValue = entglowr.nFullBloomStencilTestValue;
 			entglow.nGlowStyle = entglowr.nGlowStyle;
 			entglow.nSplitScreenSlot = entglowr.nSplitScreenSlot;
-			entglow.nNextFreeSlot = entglowr.nNextFreeSlot;
 
 			EntityPlayer cEntity;
 			cEntity .entityBase= entglowr.pEntity;
@@ -177,11 +176,7 @@ void Glow::tGlow() {
 			entglow.bRenderWhenOccluded = true;
 			entglow.bRenderWhenUnoccluded = false;
 			entglow.nGlowStyle = 0;
-
-
-
-
-			mem.Write<GlowObjectDefinition_w>(glowObj.m_objects_ptr + 0x38 * c +0x4, entglow);
+			mem.Write<GlowObjectDefinition_w>(glowObj.m_objects_ptr + 0x38 * c + 0x8, entglow);
 		}
 	}
 }
